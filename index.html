@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Quiz</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div id="main">
+<div id="header">
+<h1>Quiz</h1>
+</div>
+<form id="form1">
+
+<h2>1.The HTML standard that does not require quotes around attribute values is said to be.</h2>
+<label for="var_string"><input type="radio" name="variable" value="0" id="var_string" />HTML 1</label>
+<label for="var_join"><input type="radio" name="variable" value="0" id="var_join" />HTML 3</label>
+<label for="var_info"><input type="radio" name="variable" value="10" id="var_info" />HTML 5</label>
+<label for="var_condition"><input type="radio" name="variable" value="0" id="var_condition"/>HTML 7</label>
+
+<h2>2.A HTML element known to be &lt;ins&gt;,defines.</h2>
+<label for="sub_string"><input type="radio" name="sub" value="0" id="sub_string"/>Incapsulation</label>
+<label for="sub_join"><input type="radio" name="sub" value="10" id="sub_join"/>Insertion </label>
+<label for="sub_info"><input type="radio" name="sub" value="0" id="sub_info" />Instance</label>
+<label for="sub_condition"><input type="radio" name="sub" value="0" id="sub_condition" />Instantiation</label>
+
+<h2>3.A HTML element that is used to group the footer content in a table is known to be.</h2>
+<label for="cat_string"><input type="radio" name="con" value="10" id="cat_string" />&lt;tfoot&gt;</label>
+<label for="cat_join"><input type="radio" name="con" value="0" id="cat_join" />&lt;tfooter&gt;</label>
+<label for="cat_info"><input type="radio" name="con" value="0" id="cat_info" />&lt;tbody&gt;</label>
+<label for="cat_condition"><input type="radio" name="con" value="0" id="cat_condition" />&lt;tgroup&gt;</label>
+
+<h2>4.Which of the following methods is used to access HTML elements using Javascript?</h2>
+<label for="if_string"><input type="radio" name="ifstate" value="0" id="if_string" />getElementbyId()</label>
+<label for="if_join"><input type="radio" name="ifstate" value="0" id="if_join" />getElementbyClassName()</label>
+<label for="if_info"><input type="radio" name="ifstate" value="10" id="if_info" />Both A & B</label>
+<label for="if_condition"><input type="radio" name="ifstate"  value="0" id="if_condition" />None of the Above</label>
+
+<h2>5.Which of the following methods can be used to display data in some form using Javascript?</h2>
+<label for="wh_string"><input type="radio" name="whstate" value="0" id="wh_string" />document.write()</label>
+<label for="wh_join"><input type="radio" name="whstate" value="0" id="wh_join" />console.log()</label>
+<label for="wh_info"><input type="radio" name="whstate" value="0" id="wh_info" />window.alert()</label>
+<label for="wh_condition"><input type="radio" name="whstate"  value="10" id="wh_condition" />All of the Above</label>
+
+<h2>6. A page designed in HTML is called?</h2>
+<label for="lh_string"><input type="radio" name="lhstate" value="0" id="lh_string" />Application</label>
+<label for="lh_join"><input type="radio" name="lhstate" value="0" id="lh_join" />Cover page</label>
+<label for="lh_info"><input type="radio" name="lhstate" value="0" id="lh_info" />Front-end</label>
+<label for="lh_condition"><input type="radio" name="lhstate"  value="10" id="lh_condition" />Web Page</label>
+
+<h2>7.If we want to place text around an image, which CSS property should we use?</h2>
+<label for="vh_string"><input type="radio" name="vhstate" value="0" id="vh_string" />push</label>
+<label for="vh_join"><input type="radio" name="vhstate" value="10" id="vh_join" />float</label>
+<label for="vh_info"><input type="radio" name="vhstate" value="0" id="vh_info" />align</label>
+<label for="vh_condition"><input type="radio" name="vhstate"  value="0" id="vh_condition" />wrap</label>
+
+<h2>8.Suppose we want to arrange three DIVs so that DIV 3 is placed above DIV1. Now, which CSS property are we going to use to control the stack order?</h2>
+<label for="ah_string"><input type="radio" name="ahstate" value="0" id="ah_string" />d-index</label>
+<label for="ah_join"><input type="radio" name="ahstate" value="0" id="ah_join" />s-index</label>
+<label for="ah_info"><input type="radio" name="ahstate" value="0" id="ah_info" />x-index</label>
+<label for="ah_condition"><input type="radio" name="ahstate"  value="10" id="ah_condition" />z-index</label>
+
+<h2>9.Which element has very similar properties to the DIV element?</h2>
+<label for="nh_string"><input type="radio" name="nhstate" value="0" id="nh_string" />strong</label>
+<label for="nh_join"><input type="radio" name="nhstate" value="10" id="nh_join" />span</label>
+<label for="nh_info"><input type="radio" name="nhstate" value="0" id="nh_info" />table</label>
+<label for="nh_condition"><input type="radio" name="nhstate"  value="0" id="nh_condition" />All of the Above</label>
+
+<h2>10.What is the use of the &lt;noscript&gt; tag in Javascript?</h2>
+<label for="th_string"><input type="radio" name="thstate" value="10" id="th_string" />The contents are displayed by non-Js-based browsers.</label>
+<label for="th_join"><input type="radio" name="thstate" value="0" id="th_join" />Clear all the cookies and cache</label>
+<label for="th_info"><input type="radio" name="thstate" value="0" id="th_info" />Both A & B</label>
+<label for="th_condition"><input type="radio" name="thstate"  value="0" id="th_condition" />None of the Above</label>
+
+<br><br>
+<button type="submit" value="Submit">Submit</button>
+<p>Your grade is: <span id="grade">__</span></p>
+<p id="grade2"></p>
+
+</form>
+</body>
+<script src="scrpit/sc.js"></script>
+</html>

@@ -1,0 +1,30 @@
+body {
+  background-color: rgba(0, 0, 0, 0.151);
+  font-family: Helvetica;
+}
+body h1{
+  text-align: center;
+}
+
+#main {
+width: 80%;
+max-width: 950px;
+border: 1px rgb(0, 0, 0) solid;
+margin: auto;
+padding: 10px;
+background-color: rgb(196, 196, 196);
+border-radius: 10px;
+}
+label {
+  display: block;
+}
+    
+input {
+width: 30px;
+margin-left: 20px;
+}
+    
+button {
+  width: 100px;
+  margin-top: 20px;
+}
